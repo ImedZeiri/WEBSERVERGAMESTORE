@@ -1,0 +1,29 @@
+GET http://localhost:5057/games
+
+###
+GET http://localhost:5057/games/10
+
+###‚
+POST http://localhost:5057/games
+Content-Type: application/json
+
+{
+    "name": "Game 1",
+    "genre":"kids and family",
+    "price": 10.99,
+    "ReleaseDate": "2011-12-12"
+}
+
+###
+PUT http://localhost:5057/games/10
+Content-Type: application/json  
+
+{
+  "name": "Street Fighter II updated 2",
+  "genre": "Fighting",
+  "price": 39.99,
+  "releaseDate": "2017-10-21"
+}
+
+###
+DELETE http://localhost:5057/games/20
