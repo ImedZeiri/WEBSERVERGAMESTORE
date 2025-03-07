@@ -1,0 +1,63 @@
+# Ignorer les fichiers de compilation et les répertoires de sortie
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Ignorer les fichiers de cache et de logs
+*.cache
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorer les fichiers de configuration local
+*.local
+
+# Ignorer les fichiers de l'éditeur (Visual Studio, Rider, etc.)
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Ignorer les packages NuGet
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+
+# Ignorer les fichiers de déploiement
+*.pubxml
+*.publishsettings
+
+# Ignorer les fichiers de test
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.temp
+
+# Ignorer les fichiers de base de données locale
+*.mdf
+*.ldf
+
+# Ignorer les fichiers de projet spécifiques
+*.csproj.user
+*.vbproj.user
+
+# Ignorer les fichiers de l'éditeur de code (VS Code)
+.vscode/
+
+# Ignorer les fichiers de dépendances (npm, yarn, etc.)
+node_modules/
+
+# Ignorer les fichiers de l'environnement (comme .env)
+.env
+.env.local
+
+# Ignorer les fichiers de l'éditeur JetBrains Rider
+.idea/
+*.idea
+
+# Ignorer les fichiers de l'éditeur Visual Studio Code
+.vscode/
